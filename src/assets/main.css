@@ -1,6 +1,10 @@
 @import './base.css';
 @import './index.css';
 
+* {
+  box-sizing: border-box;
+}
+
 html,
 body,
 #app {
