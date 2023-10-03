@@ -12,9 +12,9 @@
 </template>
 
 <script setup lang="ts">
-import Sidebar from '@/components/Sidebar.vue';
-import Alert from '@/components/Alert.vue';
-import Dashboard from '@/components/Dashboard.vue';
+import Sidebar from '../components/Sidebar.vue';
+import Alert from '../components/Alert.vue';
+import Dashboard from '../components/Dashboard.vue';
 import { computed, onMounted, reactive, ref } from 'vue';
 import type { WeatherData } from 'types/api';
 import axios from 'axios';
