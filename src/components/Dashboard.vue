@@ -131,7 +131,6 @@ const updateChart = () => {
 onMounted(() => {
   if (ctx.value) {
     Chart.register(...registerables);
-    console.log({ type: 'line', data: chartData, options: chartOptions });
     new Chart(ctx.value, {
       type: 'line',
       data: chartData,
